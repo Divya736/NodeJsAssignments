@@ -1,0 +1,24 @@
+.sign-up{
+    height:30px;
+    width: 55px;
+    background-color:grey;
+    border-style: outset;
+    border-width: 2px
+   }
+   .log-in{
+    height:30px;
+    width: 55px;
+    background-color:rgba(94, 90, 90, 0.342);
+    border-style: outset;
+    border-width: 1px;
+   }
+   .submit{
+    height:30px;
+    width: 55px;
+    background-color:grey;
+    border-style: outset;
+    border: 1px;
+   }
+   .arrange{
+       align-items: center;
+   }
