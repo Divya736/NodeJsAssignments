@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   background: url("background_20.block.jpeg");
+   background-size: cover;
+    }
+.box{
+    width:300px;
+    padding: 30px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:gainsboro;
+    text-align: center;
+}
+.box h4{
+    color:rgb(75, 67, 81);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.box input[type="text"],.box input[type="password"]{
+    border: 0px;
+    background-color: aliceblue;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid ;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(18, 17, 17);
+    border-radius: 24px;
+    transition:0.25px;
+    font :black;
+}
+
+.box input[type="submit"]{
+    border: 0px;
+    background-color: rgb(90, 43, 201);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid ;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background: rgb(195, 195, 7);
+}
